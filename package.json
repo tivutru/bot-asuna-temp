@@ -1,0 +1,116 @@
+{
+  "_from": "chatbot-asuna-temp@^1.10.0",
+  "_inBundle": false,
+  "_integrity": "sha512-GIMzmSkLYABDVEYR8FAEakWUNLrS79Wk7v7tSV6ViFpbpPFUttsqVlpbEYpP+ICbI56BBRwDEu5y4hHpAbFE0Q==",
+  "_location": "/chatbot-asuna-temp",
+  "_phantomChildren": {
+    "ansi": "0.3.1",
+    "asynckit": "0.4.0",
+    "combined-stream": "1.0.8",
+    "delegates": "1.0.0",
+    "follow-redirects": "1.15.2",
+    "has-unicode": "2.0.1",
+    "lodash.pad": "4.5.1",
+    "lodash.padend": "4.6.1",
+    "lodash.padstart": "4.6.1",
+    "lru-cache": "6.0.0",
+    "mime-types": "2.1.32",
+    "proxy-from-env": "1.1.0",
+    "readable-stream": "2.3.7"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "chatbot-asuna-temp^1.10.0",
+    "name": "chatbot-assuna-temp",
+    "escapedName": "chatbot-asuna-temp",
+    "rawSpec": "^1.10.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.10.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_shasum": "2e342784d591c8089d24e1339d19a367e3edb144",
+  "_spec": "chatbot-asuna-temp@^1.10.0",
+  "_where": "",
+  "author": "Avery, David, Maude, Benjamin, Kanzu",
+  "bugs": {
+    "url": "https://github.com/tivutru/chatbot-asuna-temp"
+  },
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "axios": "^1.2.1",
+    "bluebird": "^2.11.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.0",
+    "https-proxy-agent": "^4.0.0",
+    "mqtt": "^4.2.8",
+    "npmlog": "^1.2.0",
+    "request": "^2.53.0",
+    "semver": "",
+    "websocket-stream": "^5.5.0"
+  },
+  "deprecated": false,
+  "description": "This repo is a fork from the main repo and will usually have new features integrated faster than the main repo (and may also include certain bugs)",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "mocha": "^7.0.1",
+    "prettier": "^1.11.1"
+  },
+  "engines": {
+    "node": ">=10.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "homepage": "https://github.com/tivutru/chatbotasuna-temp#readme",
+  "keywords": [
+    "Fca",
+    "chatbot-asuna-temp",
+    "fca bot",
+    "fca",
+    "chatbot-asuna-temp"
+  ],
+  "license": "MIT",
+  "name": "chatbot-asuna-temp",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tivutru/chatbot-asuna-temp.git"
+  },
+  "scripts": {
+    "lint": "eslint **.js",
+    "prettier": "prettier utils.js src/* --write",
+    "test": "mocha"
+  },
+  "version": "1.10.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  }
+}

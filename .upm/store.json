@@ -1,0 +1,1 @@
+{"version":2,"languages":{"nodejs-npm":{"specfileHash":"ea9778ce446e6ea632b4de959c3b7f8b","lockfileHash":"9b7e2c3555fdff32fd91227f9ba8640e","guessedImports":["horizon-sp","mqtt","bluebird","request","totp-generator","npmlog","cheerio","fs-extra","axios","chalk","websocket-stream","https-proxy-agent"],"guessedImportsHash":"76fd52ad6090f7f2e5bc915983764774"}}}
