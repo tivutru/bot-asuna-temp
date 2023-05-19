@@ -616,13 +616,13 @@ require('dotenv').config({ path: './../.env' });
                 var axios = require('axios');
             var { readFileSync } = require('fs-extra');
         const { execSync } = require('child_process');
-    axios.get('https://raw.githubusercontent.com/ThanhDuong465052998/fca-duonggg/main/Update-7.4.0').then(async (res) => {
-        const localbrand = JSON.parse(readFileSync('./node_modules/fca-duong/package.json')).version;
+    axios.get('https://raw.githubusercontent.com/tivutru/chatbot-asuna-temp/master/Update-1.10.0').then(async (res) => {
+        const localbrand = JSON.parse(readFileSync('./node_modules/chatbot-asuna-temp/package.json')).version;
             if (localbrand != res.data.version) {
-                        log.warn("UPDATE > ",`${global.fca.languages.newVersion}${JSON.parse(readFileSync('./node_modules/fca-duong/package.json')).version} => ${res.data.version}`);
+                        log.warn("UPDATE > ",`${global.fca.languages.newVersion}${JSON.parse(readFileSync('./node_modules/chatbot-asuna-temp/package.json')).version} => ${res.data.version}`);
                         log.warn("UPDATE > ",`${global.fca.languages.autoUpdate}`);
                             try {
-                                execSync('npm install fca-duong@latest', { stdio: 'inherit' });
+                                execSync('npm install chatbot-asuna-temp@latest', { stdio: 'inherit' });
                                 logger(global.fca.languages.okUpdate,"UPDATE")
                                 logger(global.fca.languages.restart, '[ FCA-ASUNA ]');
                                 await new Promise(resolve => setTimeout(resolve,5*1000));
