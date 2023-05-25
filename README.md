@@ -10,14 +10,14 @@ API Này Là Cách Duy Nhất Để Tự Động Hóa Các Chức Năng Trò Chu
 # Cài đặt
 Nếu Bạn Muốn Sử Dụng, Hãy Vô Terminal Hoặc Command Promt Nhập:
 ```bash
-npm install chatMessenger-asuna-temp      
+npm install bot-asuna-temp      
 ```
 Nó Sẽ Tải Xuống Từ Kho NPM
 
 ## Tải Bản Mới Nhất Hoặc Update
 Nếu Bạn Muốn Sử Dụng Phiên Bản Mới Nhất Hay Cập Nhật Thì Hãy Vô Terminal Hoặc Command Promt Nhập:
 ```bash
-npm install chatMessenger-asuna-temp@latest
+npm install bot-asuna-temp@latest
 ```
 
 ## Nếu Bạn Muốn Test Api
@@ -25,7 +25,7 @@ Lợi Ích Cho Việc Này Thì Bạn Sẽ Không Tốn Thời Gian Pay Acc Và 
 
 ## Ví dụ sử dụng
 ```javascript
-const login = require("chatMessenger-asuna-temp");
+const login = require("bot-asuna-temp");
 
 // Create simple echo bot
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
