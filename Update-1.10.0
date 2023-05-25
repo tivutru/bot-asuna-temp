@@ -1,6 +1,6 @@
 {
   "name": "chatMessenger-asuna-temp",
-  "version": "1.10.2",
+  "version": "1.10.0",
   "description": "This repo is a fork from the main repo and will usually have new features integrated faster than the main repo (and may also include certain bugs)",
   "scripts": {
     "test": "mocha",
