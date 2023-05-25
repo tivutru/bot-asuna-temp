@@ -1,5 +1,5 @@
 {
-  "name": "chatMessenger-asuna-temp",
+  "name": "bot-asuna-temp",
   "version": "1.10.0",
   "description": "This repo is a fork from the main repo and will usually have new features integrated faster than the main repo (and may also include certain bugs)",
   "scripts": {
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tivutru/chatMessenger-asuna-temp"
+    "url": "git://github.com/tivutru/bot-asuna-temp"
   },
   "keywords": [
     "Fca",
-    "chatMessenger-asuna-temp",
+    "bot-asuna-temp",
     "fca bot",
     "fca",
-    "chatMessenger-asuna-temp"
+    "bot-asuna-temp"
   ],
   "bugs": {
-    "url": "https://github.com/tivutru/chatMessenger-asuna-temp"
+    "url": "https://github.com/tivutru/bot-asuna-temp"
   },
   "author": "Avery, David, Maude, Benjamin, Kanzu",
   "license": "MIT",
