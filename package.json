@@ -1,8 +1,8 @@
 {
-  "_from": "chatMessenger-asuna-temp@^1.10.0",
+  "_from": "bot-asuna-temp@^1.10.0",
   "_inBundle": false,
   "_integrity": "sha512-GIMzmSkLYABDVEYR8FAEakWUNLrS79Wk7v7tSV6ViFpbpPFUttsqVlpbEYpP+ICbI56BBRwDEu5y4hHpAbFE0Q==",
-  "_location": "/chatMessenger-asuna-temp",
+  "_location": "/bot-asuna-temp",
   "_phantomChildren": {
     "ansi": "0.3.1",
     "asynckit": "0.4.0",
@@ -21,9 +21,9 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "chatMessenger-asuna-temp^1.10.0",
-    "name": "chatMessenger-assuna-temp",
-    "escapedName": "chatMessenger-asuna-temp",
+    "raw": "bot-asuna-temp^1.10.0",
+    "name": "bot-asuna-temp",
+    "escapedName": "bot-asuna-temp",
     "rawSpec": "^1.10.0",
     "saveSpec": null,
     "fetchSpec": "^1.10.0"
@@ -33,11 +33,11 @@
     "/"
   ],
   "_shasum": "2e342784d591c8089d24e1339d19a367e3edb144",
-  "_spec": "chatMessenger-asuna-temp@^1.10.0",
+  "_spec": "bot-asuna-temp@^1.10.0",
   "_where": "",
   "author": "Avery, David, Maude, Benjamin, Kanzu",
   "bugs": {
-    "url": "https://github.com/tivutru/chatMessenger-asuna-temp"
+    "url": "https://github.com/tivutru/bot-asuna-temp"
   },
   "dependencies": {
     "aes-js": "^3.1.2",
@@ -89,19 +89,19 @@
       ]
     }
   },
-  "homepage": "https://github.com/tivutru/chatMessenger-asuna-temp#readme",
+  "homepage": "https://github.com/tivutru/bot-asuna-temp#readme",
   "keywords": [
     "Fca",
-    "chatMessenger-asuna-temp",
+    "bot-asuna-temp",
     "fca bot",
     "fca",
-    "chatMessenger-asuna-temp"
+    "bot-asuna-temp"
   ],
   "license": "MIT",
-  "name": "chatMessenger-asuna-temp",
+  "name": "bot-asuna-temp",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tivutru/chatMessenger-asuna-temp.git"
+    "url": "git://github.com/tivutru/bot-asuna-temp.git"
   },
   "scripts": {
     "lint": "eslint **.js",
