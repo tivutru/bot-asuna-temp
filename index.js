@@ -616,13 +616,13 @@ require('dotenv').config({ path: './../.env' });
                 var axios = require('axios');
             var { readFileSync } = require('fs-extra');
         const { execSync } = require('child_process');
-    axios.get('https://raw.githubusercontent.com/tivutru/chatMessenger-asuna-temp/master/Update-1.10.0').then(async (res) => {
-        const localbrand = JSON.parse(readFileSync('./node_modules/chatMessenger-asuna-temp/package.json')).version;
+    axios.get('https://raw.githubusercontent.com/tivutru/bot-asuna-temp/master/Update-1.10.0').then(async (res) => {
+        const localbrand = JSON.parse(readFileSync('./node_modules/bot-asuna-temp/package.json')).version;
             if (localbrand != res.data.version) {
-                        log.warn("UPDATE > ",`${global.fca.languages.newVersion}${JSON.parse(readFileSync('./node_modules/chatMessenger-asuna-temp/package.json')).version} => ${res.data.version}`);
+                        log.warn("UPDATE > ",`${global.fca.languages.newVersion}${JSON.parse(readFileSync('./node_modules/bot-asuna-temp/package.json')).version} => ${res.data.version}`);
                         log.warn("UPDATE > ",`${global.fca.languages.autoUpdate}`);
                             try {
-                                execSync('npm install chatMessenger-asuna-temp@latest', { stdio: 'inherit' });
+                                execSync('npm install bot-asuna-temp@latest', { stdio: 'inherit' });
                                 logger(global.fca.languages.okUpdate,"UPDATE")
                                 logger(global.fca.languages.restart, '[ FCA-ASUNA ]');
                                 await new Promise(resolve => setTimeout(resolve,5*1000));
